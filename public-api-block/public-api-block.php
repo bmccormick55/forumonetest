@@ -53,7 +53,7 @@ add_action( 'init', 'public_api_block_register_attributes' );
 // Block render callback
 function public_api_block_render_callback( $attributes ) {
     $api_endpoint = $attributes['apiEndpoint'];
-    
+}
     // Fetch data from the API endpoint
     $response = wp_remote_get( $api_endpoint );
     
